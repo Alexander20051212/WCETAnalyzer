@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="data\input.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="data\input.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="docs\" />
     <Folder Include="src\" />
   </ItemGroup>
