@@ -1,0 +1,58 @@
+{
+  "processor": {
+    "baseOperationCost": 1,
+    "cacheMissPenalty": 20,
+    "branchMispredictionPenalty": 10,
+    "deadlineCycles": 100
+  },
+  "operations": [
+    {
+      "name": "ReadInput",
+      "type": "Read",
+      "memoryAccesses": 1,
+      "branches": 0
+    },
+    {
+      "name": "LoadParameters",
+      "type": "Read",
+      "memoryAccesses": 1,
+      "branches": 0
+    },
+    {
+      "name": "ValidateInput",
+      "type": "Branch",
+      "memoryAccesses": 0,
+      "branches": 1
+    },
+    {
+      "name": "CalculateStep1",
+      "type": "Compute",
+      "memoryAccesses": 0,
+      "branches": 0
+    },
+    {
+      "name": "CalculateStep2",
+      "type": "Compute",
+      "memoryAccesses": 0,
+      "branches": 0
+    },
+    {
+      "name": "CheckResult",
+      "type": "Branch",
+      "memoryAccesses": 0,
+      "branches": 1
+    },
+    {
+      "name": "StoreResult",
+      "type": "Write",
+      "memoryAccesses": 1,
+      "branches": 0
+    },
+    {
+      "name": "Finish",
+      "type": "Compute",
+      "memoryAccesses": 0,
+      "branches": 0
+    }
+  ]
+}
