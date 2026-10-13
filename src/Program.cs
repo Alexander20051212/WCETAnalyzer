@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Text.Json;
-using WCETAnalyzer.Services;
 using WCETAnalyzer.src.Models;
+using WCETAnalyzer.src.Services;
 
-namespace WCETAnalyzer
+namespace WCETAnalyzer.src
 {
     internal class Program
     {

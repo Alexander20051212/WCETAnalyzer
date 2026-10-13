@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using WCETAnalyzer.src.Models;
 
-namespace WCETAnalyzer.Services
+namespace WCETAnalyzer.src.Services
 {
     public class SourceBreakdownResult
     {
