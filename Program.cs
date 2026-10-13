@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Text.Json;
-using WCETAnalyzer.Models;
 using WCETAnalyzer.Services;
+using WCETAnalyzer.src.Models;
 
 namespace WCETAnalyzer
 {

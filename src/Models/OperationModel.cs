@@ -1,5 +1,4 @@
-﻿
-namespace WCETAnalyzer.Models
+﻿namespace WCETAnalyzer.src.Models
 {
     public class OperationModel
     {
